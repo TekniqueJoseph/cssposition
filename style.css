@@ -1,3 +1,52 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    margin: 0;
+}
+header{
+    /* position: relative; */
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    /* padding: 5px; */
+    background-color: blueviolet;
+    color: white;
+}
+header h1{
+    position: absolute;
+    margin-top: 0;
+    top: 10px;
+}
+span{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+img{
+    width: 100%;
+    height: 60vh;
+}
+#outter{
+    position: sticky;
+    top: 25px;
+    width: 450px;
+    height: 574px;
+    background-color: black;
+}
+#inner1{
+    position: absolute;
+    top: -20px;
+    left: 30%;
+    width: 175px;
+    height: 150px;
+    background-color: red;
+}
+#inner2{
+    position: absolute;
+    right: 40%;
+    top: 20%;
+    height: 55px;
+    width: 70px;
+    background-color: yellow;
+}
